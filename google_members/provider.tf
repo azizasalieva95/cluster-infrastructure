@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = "${file("test.json")}"
-  project     = "${var.project_id}"
+  credentials = "${file("fuchicorp_service_account.json")}"
+  project     = "${var.google_project_id}"
   region      = "us-central1"
 }

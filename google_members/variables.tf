@@ -1,4 +1,5 @@
 variable "members" {
+
 type = "list"
 }
-variable "project_id" {}
+variable "google_project_id" {}
